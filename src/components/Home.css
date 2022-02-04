@@ -1,0 +1,56 @@
+.sectionOne {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.top {
+    height: 350px;
+    width: 100%
+}
+
+.contain {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.logoimg {
+    height: 100px;
+}
+
+.sectionTwo{
+    margin-top: -40px;
+    height: 100vh;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 1) 40%, rgba(22, 0, 212, 1) 100%);
+}
+.about{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    height: 200px;
+    border-radius: 10px;
+}
+.subsection_title{
+    font-size:40px;
+}
+.section_head{
+    font-size: 30px;
+}
+p{
+    font-size:20px
+}
