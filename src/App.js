@@ -22,7 +22,7 @@ function App() {
         <body className="App-intro">
                     <Routes>
                         <Route path="/about" element={<About/>}/>
-                        <Route path="/home" element={<Home/>}/>
+                        <Route path="/" element={<Home/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/:post_id" element={<Post/>}/>
 
