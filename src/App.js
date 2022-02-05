@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home'
-import Nav from './components/Navbar'
 import About from './components/About'
 import Contact from './components/Contact'
 import Post from './components/Post'
-
+import NavbarFixed from './components/NavbarFixed'
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,7 +16,7 @@ import {
 function App() {
   return (
     <>
-        <Nav/>
+    <NavbarFixed/>
 
         <body className="App-intro">
                     <Routes>
@@ -25,6 +24,7 @@ function App() {
                         <Route path="/" element={<Home/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/:post_id" element={<Post/>}/>
+
 
                     </Routes>
                 </body>

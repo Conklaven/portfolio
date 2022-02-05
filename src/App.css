@@ -71,3 +71,10 @@
 .h5 {
   height: 3rem !important;
 }
+
+#gradient__text {
+  -webkit-text-fill-color: transparent;
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
