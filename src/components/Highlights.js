@@ -33,7 +33,7 @@ class Highlights extends Component {
                     <img className="logoimg" src={sql}></img>
                 </div>
                 <div className="about">
-                    <div className="subTitle" id="gradient__text"><Test/></div>
+                    <div className="subTitle"><Test/></div>
                     <div className="aboutDetails">
                     <div className="section_head">Education</div>
                         <p>Western Kentucky University : <span>Business Communications</span></p>
