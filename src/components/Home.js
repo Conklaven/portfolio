@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux'
-import blog from '../blog.png'
 import "tachyons"
 import Typewriter from 'typewriter-effect';
 import './Home.css'

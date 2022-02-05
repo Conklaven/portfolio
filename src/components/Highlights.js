@@ -1,16 +1,13 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux'
-import blog from '../blog.png'
 import "tachyons"
 import Typewriter from 'typewriter-effect';
 import './Home.css'
 import js from '../images/js.png'
 import react from '../images/react.png'
 import redux from '../images/redux.png'
-import html from '../images/html.png'
 import sql from '../images/sql.png'
 import pgadmin from '../images/pgadmin.png'
-import css from '../images/css.png'
 import AnimatedText from 'react-animated-text-content';
 import Test from './Test'
 import Projects from './Projects'
