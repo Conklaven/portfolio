@@ -26,6 +26,7 @@
     text-align: center;
     margin: auto;
     margin-top: 40px;
+    grid-gap: 15px;
 
 }
 
@@ -40,7 +41,6 @@
 }
 
 .about {
-    margin-left: 10%;
     margin-top: 50px;
     color: white;
     height: fit-content;
@@ -60,16 +60,47 @@ p {
 }
 
 .projContain {
-    height: 500px;
     margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
 }
-
-.card-body {
+.card{
+    height:400px;
+}
+.card-body, .card {
     background-color: white;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }
-
+.card, .card-img-top {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.aboutDetails{
+    margin-left: 10%
+}
+.subTitle{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+/* a.sidenav-trigger.show-on-large {
+    display: none !important;
+} */
 @media only screen and (max-width: 600px) {
     .sectionOne {
       font-size: 30px;
     }
   }
+
+  /* @media only screen and (max-width: 1000px) {
+    .sidenav-trigger{
+        display: block !important;
+    }
+} */

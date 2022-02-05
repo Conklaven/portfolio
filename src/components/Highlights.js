@@ -14,6 +14,7 @@ import css from '../images/css.png'
 import AnimatedText from 'react-animated-text-content';
 import Test from './Test'
 import Projects from './Projects'
+import Projectsword from './Projectsword'
 
 
 import {
@@ -35,7 +36,8 @@ class Highlights extends Component {
                     <img className="logoimg" src={sql}></img>
                 </div>
                 <div className="about">
-                    <><Test/></>
+                    <div className="subTitle"><Test/></div>
+                    <div className="aboutDetails">
                     <div className="section_head">Education</div>
                         <p>Western Kentucky University : <span>Business Communications</span></p>
                         <p>Developers Institute : <span>Full Stack Certification</span></p>
@@ -44,10 +46,10 @@ class Highlights extends Component {
                         <p>Windows, OSX, Unix/Linux, </p>
                     <div className="section_head">Hobbies</div>
                     <p>Professional Mascot, Avid Lego Builder </p>
-
+                    </div>
                 </div>
                 <div className="projContain">
-                <div>Projects</div>
+                <div className="subTitle"><Projectsword/></div>
                 <Projects/>
             </div>
             Test

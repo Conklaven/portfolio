@@ -37,7 +37,7 @@ class Navbar extends Component {
         <>
         <div className="nav-fixed black">
         <nav className="nav-fixed black">
-        <a href="#" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a>
+        <a href="#" data-target="slide-out" className="sidenav-trigger hide-on-large"><i className="material-icons">menu</i></a>
             
                 <aside className="black">
                     <a href="/" className="brand-logo center"><img className="mainlogo" src={logo}></img></a>
