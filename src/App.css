@@ -81,7 +81,9 @@
   -webkit-text-fill-color: transparent;
 }
 
+
 :root{
+  --gradient-message: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 59, 218, 1) 13%, rgba(117, 63, 181, 1) 25%, rgba(0, 0, 212, 1) 38%, rgba(57, 212, 220, 1) 50%, rgba(76, 175, 123, 1) 63%, rgba(74, 192, 76, 1) 75%, rgba(210, 212, 0, 1) 88%, rgba(255, 59, 0, 1) 100%);
 
   --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
 }

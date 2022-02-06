@@ -15,6 +15,19 @@
 .test-mailing{
     height: 100vh
 }
+input#name {
+    color: #00fcff;
+    font-weight: bold;
+}
+input#email {
+    color: hotpink;
+}
+textarea#feedback{
+    font-size: 20px;
+    background: var(--gradient-message);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
 @media only screen and (max-width: 600px) {
     .contactHead{

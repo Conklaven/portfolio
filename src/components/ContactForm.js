@@ -35,7 +35,7 @@ class ContactForm extends Component {
             
           <textarea
         	id="feedback"
-        	className="message"
+        	className="gradient_message"
         	onChange={this.handleFeedback}
         	placeholder="What's on Your mind?"
         	required
