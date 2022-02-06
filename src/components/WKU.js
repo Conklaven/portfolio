@@ -4,7 +4,7 @@ const WKU = (props) => {
     
     return(
         <><AnimatedText
-        type="chars" // animate words or chars
+        type="words" // animate words or chars
         animation={{
             x: '200px',
             y: '-290px',
@@ -13,7 +13,7 @@ const WKU = (props) => {
         }}
         animationType="wave"
         interval={0.05}
-        duration={.08}
+        duration={.8}
         tag="p"
         className="school"
         includeWhiteSpaces

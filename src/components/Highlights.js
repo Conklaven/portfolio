@@ -16,6 +16,7 @@ import Di from './Di'
 import Tech from './Tech'
 import Gradient from 'rgt'
 import NewProjects from './NewProjects'
+import Hobbies from './Hobbies'
 import {
     BrowserRouter as Router,
     Link
@@ -58,7 +59,7 @@ class Highlights extends Component {
                     <div className="section_head"><Gradient dir="left-to-right" from="#F400FF" to="#FF0000">
                         Hobbies
                         </Gradient></div>
-                    <p className="text">Professional Mascot, Avid Lego Builder </p>
+                        <Hobbies/>
                     </div>
                 </div>
                 <a id="portfolio" href="#portfolio"></a>

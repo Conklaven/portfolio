@@ -1,6 +1,6 @@
 import AnimatedText from 'react-animated-text-content';
 
-const Di = (props) => {
+const Hobbies = (props) => {
     
     return(
         <><AnimatedText
@@ -20,7 +20,7 @@ const Di = (props) => {
         threshold={.01}
         rootMargin="20%"
     >
-            Developers Institute : Full Stack Certification
+            Professional Mascot, Avid Lego Builder
             
 
 </AnimatedText>
@@ -29,4 +29,4 @@ const Di = (props) => {
 }
 
 
-export default Di
+export default Hobbies
