@@ -7,9 +7,9 @@ import kenes from '../images/kenes.PNG'
 const Projects = (props) => {
     
     return (
-        <div className="cards">
-         <div>
-           <Card style={{ width: '18rem' }}>
+        <div className="cards shadow-box-example hoverable">
+         <div className="shadow-box-example hoverable">
+           <Card className="shadow-box-example hoverable" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={star} height="200px"/>
                 <Card.Body>
                     <Card.Title>Star Wars Search</Card.Title>

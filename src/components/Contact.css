@@ -26,7 +26,7 @@ textarea#feedback{
     font-size: 20px;
     background: var(--gradient-message);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:transparent;
   }
 
 @media only screen and (max-width: 600px) {

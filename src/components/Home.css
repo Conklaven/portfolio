@@ -122,6 +122,11 @@ p {
 .more-info{
     color: black;
 }
+.shadow-box-example {
+    height: 120px;
+    width: 100%;
+    background-color: #64b5f6;
+  }
 
 /* a.sidenav-trigger.show-on-large {
     display: none !important;
