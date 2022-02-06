@@ -53,10 +53,10 @@ class NavbarFixed extends Component {
         </div>
 <div>
                 <ul id="slide-out" className="sidenav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/#portfolio">Portfolio</a></li>
-                    <li><a href="/contact">Get In Touch</a></li>
-                    <li><a href="/resume">Resume</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/">Portfolio</Link></li>
+                    <li><Link to="/contact">Get in Touch</Link></li>
+                    <li><Link to="/resume">Resume</Link></li>
 
                 </ul>
         </div>

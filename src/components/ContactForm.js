@@ -37,7 +37,7 @@ class ContactForm extends Component {
         	id="feedback"
         	className="message"
         	onChange={this.handleFeedback}
-        	placeholder="Post some lorem ipsum here"
+        	placeholder="What's on Your mind?"
         	required
         	value={this.state.feedback}
         	style={{width: '100%', height: '150px'}}
