@@ -28,7 +28,10 @@ textarea#feedback{
     -webkit-background-clip: text;
     color:transparent;
   }
-
+.success{
+    color:green;
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     .contactHead{
        font-size: 30px;

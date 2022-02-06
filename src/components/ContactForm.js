@@ -30,6 +30,7 @@ class ContactForm extends Component {
             <form className="test-mailing">
     	<h1 className="contactHead">What to know more?... send me a message!!</h1>
     	<div>
+        <div id="success" className="success"></div>
             <input value={this.state.name} type="text" className="from_name" id="name" onChange={this.handleName} placeholder="Your Name"></input>
             <input value={this.state.email} type="text" className="reply_to" id="email" onChange={this.handleEmail} placeholder="Your Email"></input>
             
@@ -68,6 +69,8 @@ class ContactForm extends Component {
   	'service_beuqlgs', templateId,
   	variables
   	).then(res => {
+      let area = document.getElementById('success')
+      area.innerHTML = 'Email sent successfully'
     	console.log('Email successfully sent!')
   	})
   	// Handle errors here however you like, or use a React error boundary
