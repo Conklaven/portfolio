@@ -46,7 +46,7 @@ class NavbarFixed extends Component {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/">Portfolio</Link></li>
                         <li><Link to="/contact">Get in Touch</Link></li>
-                        <li><Link to="/resume">Resume</Link></li>
+                        {/* <li><Link to="/resume">Resume</Link></li> */}
                     </ul>
                 </div>
             </nav>
@@ -56,7 +56,7 @@ class NavbarFixed extends Component {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/">Portfolio</Link></li>
                     <li><Link to="/contact">Get in Touch</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
+                    {/* <li><Link to="/resume">Resume</Link></li> */}
 
                 </ul>
         </div>
