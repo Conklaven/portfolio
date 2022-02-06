@@ -72,9 +72,16 @@
   height: 3rem !important;
 }
 
-#gradient__text {
-  -webkit-text-fill-color: transparent;
+
+
+.gradient_test{
+  font-size: 70px;
   background: var(--gradient-text);
-  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+:root{
+
+  --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
 }

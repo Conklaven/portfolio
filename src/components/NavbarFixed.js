@@ -29,7 +29,6 @@ class NavbarFixed extends Component {
     }
     componentDidMount() {
         let sidenav = document.querySelector('#slide-out');
-        console.log(sidenav)
         M.Sidenav.init(sidenav, {});
       }
     render(props){
@@ -37,7 +36,7 @@ class NavbarFixed extends Component {
         return(
            
         <>
-        <div class="navbar-fixed">
+        <div className="navbar-fixed">
             <nav>
             <div className="nav-wrapper black">
                 <a href="#" data-target="slide-out" className="sidenav-trigger hide-on-large"><i className="material-icons">menu</i></a>

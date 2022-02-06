@@ -13,6 +13,29 @@ import {
 class Home extends Component {
    
     render(props){
+        let stylesArray= [ 
+            'background-image: url(https://wallpaperaccess.com/full/340923.jpg)', 
+            'background-size: cover',
+            'font-size: 20px',
+            'color: #fff', 
+            'padding: 50px 20px',
+            'line-height: 200px', 
+            'width : 70px', 
+            'top : 2px', 
+            'height : 70px' ].join(';') 
+       console.log('%c The force is strong with you', stylesArray);
+
+        let msg = "%c Hi 👋! Welcome to my site!"; 
+        let styles= [ 
+            'font-size: 12px', 
+            'font-family: monospace', 
+            'background: white', 
+            'display: inline-block', 
+            'color: black', 
+            'padding: 8px 19px', 
+            'border: 1px dashed;' 
+        ].join(';') 
+            console.log(msg, styles);
         return(
             <>
            <div className="contain">
@@ -28,7 +51,6 @@ class Home extends Component {
                 onInit={(typewriter) => {
                 typewriter.typeString("Full-Stack Developer skilled in <strong>JavaScript</strong>")
                 .callFunction(() => {
-                    console.log('String typed out!');
                     })
                 .pauseFor(500)
                 .deleteChars(10)
@@ -37,7 +59,6 @@ class Home extends Component {
                 .deleteChars(5)
                 .typeString('<strong>Redux</strong>')
                 .callFunction(() => {
-                    console.log('All strings were deleted');
                     })
                 .start()
                 }}

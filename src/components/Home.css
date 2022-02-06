@@ -67,13 +67,16 @@ p {
 }
 .card{
     height:400px;
+    border: none !important;
+    color: white !important;
+    background-color: #030023 !important;
 }
 .card-body, .card {
     background-color: white;
     border-bottom-left-radius: 20px !important;
     border-bottom-right-radius: 20px !important;
 }
-.card, .card-img-top {
+.card, .card-img-top, .card-image {
     border-top-left-radius: 20px !important;
     border-top-right-radius: 20px !important;
 }
@@ -82,14 +85,44 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.card .card-content .card-title {
+    color: white !important;
+}
+.card-image{
+    height: 256px;
+
+}
 .aboutDetails{
     margin-left: 10%
 }
 .subTitle{
-    color:white;
-    font-size: 40px;
     text-align: center;
+    font-weight: bold;
 }
+.projFlex {
+    display: flex;
+    justify-content: space-around;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+
+}
+.card .card-image img {
+    display: block;
+    border-radius: 15px 15px 15px 15px !important;
+    position: relative;
+    /* left: 0; */
+    /* right: 0; */
+    top: 30px !important;
+    /* bottom: 0; */
+    width: 80% !important;
+    margin: auto !important;
+    border: 2px solid white;
+    height: 200px ;
+}
+.more-info{
+    color: black;
+}
+
 /* a.sidenav-trigger.show-on-large {
     display: none !important;
 } */

@@ -8,7 +8,6 @@ let initState = {
 }
 
 export const rootReducer = (state=initState, action) => {
-    console.log(action.payload)
     switch(action.type){
       case 'SELECTED' : 
       return{...state, selected: action.payload}

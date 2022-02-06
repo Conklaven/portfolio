@@ -11,9 +11,11 @@ import pgadmin from '../images/pgadmin.png'
 import AnimatedText from 'react-animated-text-content';
 import Test from './Test'
 import Projects from './Projects'
-import Projectsword from './Projectsword'
-
-
+import WKU from './WKU'
+import Di from './Di'
+import Tech from './Tech'
+import Gradient from 'rgt'
+import NewProjects from './NewProjects'
 import {
     BrowserRouter as Router,
     Link
@@ -33,24 +35,44 @@ class Highlights extends Component {
                     <img className="logoimg" src={sql}></img>
                 </div>
                 <div className="about">
-                    <div className="subTitle"><Test/></div>
+                
+                    {/* <div className="subTitle"><Test/></div> */}
+                    <h1 className="subTitle">
+                            <span className="gradient_test">About Me</span>
+                    </h1>
                     <div className="aboutDetails">
-                    <div className="section_head">Education</div>
-                        <p>Western Kentucky University : <span>Business Communications</span></p>
-                        <p>Developers Institute : <span>Full Stack Certification</span></p>
-                    <div className="section_head">Technologies</div>
-                        <p>HTML, CSS, Javascript, REACT, Redux, Node.js, JSON, AJAX, SQL, JQuery, Bootstrap, Bash</p>
-                        <p>Windows, OSX, Unix/Linux, </p>
-                    <div className="section_head">Hobbies</div>
-                    <p>Professional Mascot, Avid Lego Builder </p>
+                    <div className="section_head">
+                    <Gradient dir="left-to-right" from="#F400FF" to="#FF0000">
+                        Education
+                        </Gradient></div>
+                        <WKU/>
+                        <Di/>
+                        {/* <p>Western Kentucky University : <span>Business Communications</span></p>
+                        <p>Developers Institute : <span>Full Stack Certification</span></p> */}
+                    <div className="section_head"><Gradient dir="left-to-right" from="#F400FF" to="#FF0000">
+                        Technologies
+                        </Gradient></div>
+                        <Tech/>
+                        {/* <p>HTML, CSS, Javascript, REACT, Redux, Node.js, JSON, AJAX, SQL, JQuery, Bootstrap, Bash</p>
+                        <p>Windows, OSX, Unix/Linux, </p> */}
+                    <div className="section_head"><Gradient dir="left-to-right" from="#F400FF" to="#FF0000">
+                        Hobbies
+                        </Gradient></div>
+                    <p className="text">Professional Mascot, Avid Lego Builder </p>
                     </div>
                 </div>
                 <a id="portfolio" href="#portfolio"></a>
                 <div className="projContain">
-                <div className="subTitle"><Projectsword/></div>
-                <Projects/>
+                <h1 className="subTitle">
+            
+                <span className="gradient_test">Projects</span>
+            
+        </h1>
+                {/* <Projects/> */}
+                <div className="projFlex">
+                <NewProjects/>
+                </div>
             </div>
-            Test
         </div>
             
         </>

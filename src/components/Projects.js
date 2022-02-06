@@ -40,11 +40,11 @@ const Projects = (props) => {
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={star} height="200px"/>
                 <Card.Body>
-                    <Card.Title>American Ailines API</Card.Title>
+                    <Card.Title>Jewanced</Card.Title>
                     <Card.Text>
-                        API for integration with AA Vacations
+                        Immersive website for a new podcast
                     </Card.Text>
-                    <a href="https://conklaven.github.io/StarWars/" target="_blank">
+                    <a href="https://jewanced.com" target="_blank">
                     <Button variant="primary">Take a Look</Button>
                     </a>
                 </Card.Body>

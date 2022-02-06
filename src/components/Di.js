@@ -1,6 +1,6 @@
 import AnimatedText from 'react-animated-text-content';
 
-const Projectsword = (props) => {
+const Di = (props) => {
     
     return(
         <><AnimatedText
@@ -11,16 +11,17 @@ const Projectsword = (props) => {
             scale: 1.1,
             ease: 'ease-in-out',
         }}
-        animationType="rifle"
-        interval={0.1}
-        duration={1}
+        animationType="wave"
+        interval={0.05}
+        duration={.08}
         tag="p"
-        className="subsection_title"
+        className="school"
         includeWhiteSpaces
         threshold={0.1}
         rootMargin="20%"
     >
-            Projects
+            Developers Institute : Full Stack Certification
+            
 
 </AnimatedText>
         </>
@@ -28,4 +29,4 @@ const Projectsword = (props) => {
 }
 
 
-export default Projectsword
+export default Di
