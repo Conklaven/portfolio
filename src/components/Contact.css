@@ -15,3 +15,15 @@
 .test-mailing{
     height: 100vh
 }
+
+@media only screen and (max-width: 600px) {
+    .contactHead{
+       font-size: 30px;
+
+    }
+    .contact-contain {
+
+        margin-top: -100px;
+
+    }
+  }
