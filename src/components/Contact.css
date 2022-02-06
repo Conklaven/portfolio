@@ -5,3 +5,13 @@
     margin-top: 30px;
     padding: 20px;
 }
+.contactHead{
+    position: absolute;
+    top: 30px;
+}
+.contain{
+    background-color: black;
+}
+.test-mailing{
+    height: 100vh
+}

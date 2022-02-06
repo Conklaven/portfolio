@@ -28,7 +28,7 @@ class ContactForm extends Component {
         
         return(
             <form className="test-mailing">
-    	<h1>What to know more?... send me a message!!</h1>
+    	<h1 className="contactHead">What to know more?... send me a message!!</h1>
     	<div>
             <input value={this.state.name} type="text" className="from_name" id="name" onChange={this.handleName} placeholder="Your Name"></input>
             <input value={this.state.email} type="text" className="reply_to" id="email" onChange={this.handleEmail} placeholder="Your Email"></input>
