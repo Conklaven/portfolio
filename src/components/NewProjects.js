@@ -36,7 +36,7 @@ class NewProjects extends Component {
                 </div>
                 <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">Star Wars Search</span>
-                    <p><a href="http://kenestours.herokuapp.com/Restaurants" target="_blank">
+                    <p><a href="https://conklaven.github.io/StarWars/" target="_blank">
                     <Button variant="primary">Take a Look</Button>
                     </a></p>
                 </div>
@@ -69,7 +69,7 @@ class NewProjects extends Component {
                 </div>
                 <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">Jewanced</span>
-                    <p><a href="http://kenestours.herokuapp.com/Restaurants" target="_blank">
+                    <p><a href="https://jewanced.com" target="_blank">
                     <Button variant="primary">Take a Look</Button>
                     </a></p>
                 </div>
