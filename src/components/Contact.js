@@ -1,6 +1,6 @@
 import ContactForm from './ContactForm'
 import './Contact.css';
-
+import FileUpload from './FileUpload'
 const Contact = (props) => {
 
     return(
@@ -9,6 +9,7 @@ const Contact = (props) => {
         </img>
         <div className="contact-contain">
             <ContactForm/>
+            <FileUpload/>
             </div>
             </div>
         </>

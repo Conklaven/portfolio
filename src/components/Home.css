@@ -37,7 +37,9 @@
 .sectionTwo {
     margin-top: -40px;
     /* height: 700px; */
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 40%, rgba(22, 0, 212, 1) 100%);
+    background: linear-gradient(
+        180deg
+        , rgba(0, 0, 0, 1) 40%, rgb(0 75 97) 100%);
 }
 
 .about {
@@ -128,6 +130,9 @@ p {
     background-color: #64b5f6;
   }
 
+  button.btn {
+    border-radius: 100px;
+}
 /* a.sidenav-trigger.show-on-large {
     display: none !important;
 } */

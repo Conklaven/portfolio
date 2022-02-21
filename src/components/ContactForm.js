@@ -17,17 +17,21 @@ init("user_Qv6m2oX5J6XNJXVAAh9mm");
 class ContactForm extends Component {
     constructor(props) {
         super(props);
-        this.state = { feedback: '', name: '', email: '' };
+        this.state = { feedback: '', name: '', email: '', file: ''};
         this.handleFeedback = this.handleFeedback.bind(this);
         this.handleName = this.handleName.bind(this);
         this.handleEmail = this.handleEmail.bind(this);
+        this.handleFile = this.handleFile.bind(this);
+
         this.handleSubmit = this.handleSubmit.bind(this);
       }
     
     render(props){
+      
         
         return(
-            <form className="test-mailing">
+        <>
+            <form className="test-mailing" enctype="multipart/form-data">
     	<h1 className="contactHead">What to know more?... send me a message!!</h1>
     	<div>
         <div id="success" className="success"></div>
@@ -46,6 +50,8 @@ class ContactForm extends Component {
     	</div>
     	<input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
   	</form>
+
+    </>
 	)
   }
 
@@ -56,12 +62,19 @@ class ContactForm extends Component {
     this.setState({feedback : event.target.value})
   }
   handleEmail(event) {
+    
     this.setState({email : event.target.value})
+  }
+
+  handleFile(event) {
+    console.log(event.target.value)
+    this.setState({file : event.target.value})
+    console.log(this.state.file)
   }
   handleSubmit (event) {
 	const templateId = 'template_e39d7pr';
 
-	this.sendFeedback(templateId, {message: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
+	this.sendFeedback(templateId, {message: this.state.feedback, from_name: this.state.name, reply_to: this.state.email, my_file: this.state.file})
   }
 
   sendFeedback (templateId, variables) {

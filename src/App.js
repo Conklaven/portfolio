@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import NavbarFixed from './components/NavbarFixed'
+
 import {
   BrowserRouter as Router,
   Switch,

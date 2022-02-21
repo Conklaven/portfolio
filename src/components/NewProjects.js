@@ -52,9 +52,9 @@ class NewProjects extends Component {
                 </div>
                 <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">Kenes Tours Database</span>
-                    <p><a href="http://kenestours.herokuapp.com/Restaurants" target="_blank">
+                    {/* <p><a href="http://kenes-tours.netlify.app/restaurants" target="_blank">
                     <Button variant="primary">Take a Look</Button>
-                    </a></p>
+                    </a></p> */}
                 </div>
                 <div className="card-reveal">
                     <span className="card-title grey-text text-darken-4">Kenes Tours Database<i class="material-icons right">close</i></span>

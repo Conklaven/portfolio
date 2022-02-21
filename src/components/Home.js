@@ -4,7 +4,7 @@ import "tachyons"
 import Typewriter from 'typewriter-effect';
 import './Home.css'
 import Highlights from './Highlights'
-
+import footer from '../images/upsidedownback.jpg'
 import {
     BrowserRouter as Router,
     Link
@@ -13,29 +13,7 @@ import {
 class Home extends Component {
    
     render(props){
-        let stylesArray= [ 
-            'background-image: url(https://wallpaperaccess.com/full/340923.jpg)', 
-            'background-size: cover',
-            'font-size: 20px',
-            'color: #fff', 
-            'padding: 50px 20px',
-            'line-height: 200px', 
-            'width : 70px', 
-            'top : 2px', 
-            'height : 70px' ].join(';') 
-       console.log('%c The force is strong with you', stylesArray);
 
-        let msg = "%c Hi 👋! Welcome to my site!"; 
-        let styles= [ 
-            'font-size: 12px', 
-            'font-family: monospace', 
-            'background: white', 
-            'display: inline-block', 
-            'color: black', 
-            'padding: 8px 19px', 
-            'border: 1px dashed;' 
-        ].join(';') 
-            console.log(msg, styles);
         return(
             <>
            <div className="contain">
@@ -58,6 +36,12 @@ class Home extends Component {
                 .pauseFor(500)
                 .deleteChars(5)
                 .typeString('<strong>Redux</strong>')
+                .pauseFor(500)
+                .deleteChars(5)
+                .typeString('<strong>Node.js</strong>')
+                .pauseFor(500)
+                .deleteChars(7)
+                .typeString('<strong>and more</strong>')
                 .callFunction(() => {
                     })
                 .start()
@@ -67,7 +51,9 @@ class Home extends Component {
            
             
             </div>
+            <div>
             <Highlights/>
+            </div>
             </>
         )
     }
